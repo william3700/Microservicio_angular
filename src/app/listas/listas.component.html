@@ -1,0 +1,28 @@
+<br/>
+<h2>Listas indexadas</h2>
+<br/>
+<div class="card">
+    <div class="card-body">
+      <!--Inico Tablas-->
+      <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Tipo producto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let x of productos">
+            <th>{{x}}</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>123</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <!--Fin Tablas-->
+    </div>
+  </div>
