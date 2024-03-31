@@ -14,11 +14,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let x of productos">
-            <th>{{x}}</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>123</td>
+          <tr *ngFor="let x of datos">
+            <th>{{x?.id}}</th>
+            <td>{{x?.name}}</td>
+            <td>{{x?.email}}</td>
+            <td>{{x?.body}}</td>
           </tr>
 
         </tbody>
